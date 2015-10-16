@@ -14,4 +14,20 @@ public class Nodo
         dato=x;
         prox=p;
     }
+
+    public Nodo getProx() {
+        return prox;
+    }
+
+    public void setProx(Nodo prox) {
+        this.prox = prox;
+    }
+
+    public Object getDato() {
+        return dato;
+    }
+
+    public void setDato(Object dato) {
+        this.dato = dato;
+    }
 }

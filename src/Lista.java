@@ -4,6 +4,8 @@
 public interface Lista {
 
 
+        void irPrimero();
+        void irUltimo();
         void insertarDespues(Object x);
         void insertarAntes(Object x);
         void eliminar();
@@ -15,6 +17,10 @@ public interface Lista {
         int longitud();
         boolean esVacio();
         boolean finLista();
+        void imprimirlista();
+        void listaarchivo();
+        void archivolista();
+
     }
 
 
